@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+/* Shared Part */
+#ekdom{
+    padding-top: 120px;
+}
+.container{
+    border: 2px solid blue;
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+}
+/* Main Part */
+header{
+    border: 2px solid red;
+    padding: 16px 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .nav-ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500px;
+    font-size: 16px;
+}
+.btn-nav{
+    padding: 12px 16px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+/* nav bar shesh */
+
+/* hero part */
+#hero{
+    background: url("../assets/hero-bg.png");
+    height: 674px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 115px;
+    text-align: center;
+}
+.ban-content .ban-top-btn{
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    color: #469165;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.ban-content .ban-top-btn .fa-circle{
+    font-size: 12px;
+    
+}
+.ban-content h1{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-size: 72px;
+}
+.ban-content p{
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.for-h1{
+    color: #30B868;
+}
+.see-how-btn{
+    margin-left: 5px;
+    padding: 12px;
+    max-width: 344px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.fa-play{
+    font-size: 12px;
+}
+
