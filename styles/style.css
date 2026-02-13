@@ -7,8 +7,9 @@ body{
     font-family: "Inter", sans-serif;
 }
 /* Shared Part */
-#ekdom{
+#ekdom,#solution{
     padding-top: 120px;
+    border: 2px solid red;
 }
 .container{
     border: 2px solid blue;
@@ -138,3 +139,7 @@ header{
     color: #001931;
     margin-bottom: 16px;
 }
+/* notes part shesh */
+
+/* solution part shuru */
+
