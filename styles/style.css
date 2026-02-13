@@ -9,10 +9,10 @@ body{
 /* Shared Part */
 #ekdom{
     padding-top: 120px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@ body{
 }
 /* Main Part */
 header{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 16px 0;
 }
 .nav-bar{
@@ -101,7 +101,7 @@ header{
 
 /* notes part started */
 #notes{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 40px;
 }
 .notes-container{
@@ -144,7 +144,7 @@ header{
 /* solution part shuru */
 #solution{
     padding-top: 120px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 #solution .solution-conainer{
     display: flex;
@@ -203,4 +203,39 @@ header{
     color: #FFFFFF;
     border-radius: 5px;
     margin-bottom: 16px;
+}
+/* footer starts */
+footer{
+    background-color:#001931 ;
+    /* border: 2px solid red; */
+    padding-top: 120px;
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 106px;
+    margin-bottom: 80px;
+}
+.social-links h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 16px;
+    line-height: 28px;
+}
+.social-icons{
+    display: flex;
+    gap: 16px;
+}
+.hr-line{
+    border: none;
+    height: 1px;
+    opacity: 20%;
+    background-color: #E5E7EB;
+    margin-bottom: 30px;
+}
+.copyright{
+    text-align: center;
+    color: #FAFAFA;
 }
