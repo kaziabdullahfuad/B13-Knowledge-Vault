@@ -99,4 +99,42 @@ header{
 /* hero part done */
 
 /* notes part started */
-
+#notes{
+    border: 2px solid red;
+    padding: 40px;
+}
+.notes-container{
+    text-align: center;
+}
+.notes-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-container p{
+    color: #627382;
+    line-height: 20px;
+}
+.notes-text{
+    margin-bottom: 44px;
+}
+.notes-card-container{
+    display: flex;
+    gap: 24px;
+}
+.notes-card-container .notes-card{
+    border: 1px solid #0000000F;
+    padding: 30px 24px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+.notes-card img{
+    margin-bottom: 16px;
+}
+.notes-card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
