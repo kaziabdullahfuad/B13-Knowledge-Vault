@@ -7,7 +7,7 @@ body{
     font-family: "Inter", sans-serif;
 }
 /* Shared Part */
-#ekdom,#solution{
+#ekdom{
     padding-top: 120px;
     border: 2px solid red;
 }
@@ -142,4 +142,39 @@ header{
 /* notes part shesh */
 
 /* solution part shuru */
-
+#solution{
+    padding-top: 120px;
+    border: 2px solid red;
+}
+#solution .solution-conainer{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.solution-content .sol-first{
+    color: #30B868;
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+.solution-content h2{
+    margin-bottom: 16px;
+    font-size: 48px;
+    color: #001931;
+}
+.solution-content .sol-second{
+    margin-bottom: 40px;
+    color: #627382;
+    line-height: 20px;
+}
+.solution-content ul{
+    list-style: none;
+}
+.solution-content ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+.solution-content ul li::before{
+     /* content: '✓'; */
+     content: url("../assets/CheckCircle.png");
+     margin-right: 6px;
+}
