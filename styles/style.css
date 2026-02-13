@@ -178,3 +178,29 @@ header{
      content: url("../assets/CheckCircle.png");
      margin-right: 6px;
 }
+/* challenge part start */
+#challenge{
+    padding-top: 120px;
+    text-align: center;
+}
+.challenge-container{
+    padding: 80px 0;
+    background-color: #F7F6F2;
+}
+.challenge-container h2{
+    margin-bottom: 16px;
+    font-size: 40px;
+    color: #001931;
+}
+.challenge-container p{
+    margin-bottom: 24px;
+    color: #627382;
+    line-height: 24px;
+}
+.challenge-nav{
+    padding: 16px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
